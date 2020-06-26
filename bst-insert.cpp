@@ -57,11 +57,11 @@ public:
 
 int main() {
 	BST T;
-	T.insert(root, 3);
-	T.insert(root, 2);
-	T.insert(root, 6);
-	T.insert(root, 12);
-	if(T.search(root, 12)) {
+	root = T.insert(root, 3);
+	root = T.insert(root, 2);
+	root = T.insert(root, 6);
+	root = T.insert(root, 12);
+	if(T.search(root, 6)) {
 		cout << "found\n";
 	} else {
 		cout << "not found\n";
