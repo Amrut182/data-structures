@@ -59,7 +59,8 @@ void postorder(Node* root) {
 }
 
 /*
-Tree : 			3
+Tree :
+		3
                / \
               1   7
                  / \
